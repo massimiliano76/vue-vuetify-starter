@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
+import en from 'vuetify/es5/locale/en'
 
 // import vuetify colors
 import colors from 'vuetify/es5/util/colors'
@@ -8,9 +9,9 @@ Vue.use(Vuetify);
 
 export default new Vuetify({
 	theme: {
-			options: {
-				customProperties: true,
-			},
+		options: {
+			customProperties: true,
+		},
 		themes: {
 			light: {
 				primary: colors.blue.darken4,
@@ -25,6 +26,10 @@ export default new Vuetify({
 				primary: colors.secondary,
 			},
 		},
+	},
+	lang: {
+		locales: { en },
+		current: 'en'
 	},
 	icons: {
 		iconfont: 'fa',

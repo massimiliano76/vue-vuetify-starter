@@ -1,12 +1,27 @@
 # Vue Vuetify Starter
 
 ## About
-A [Vuejs](http://vuejs.org/) & [Vuetify](http://vuetifyjs.com/) starter app with [FontAwesome 5](https://fontawesome.com/) icons
-it deosn't have vue-Router & Vuex, if you want it you can install it
+A [Vuejs](http://vuejs.org/) & [Vuetify](http://vuetifyjs.com/) starter app with [FontAwesome 5](https://fontawesome.com/) icons built using [Vue CLI](https://cli.vuejs.org/)
+
+*Note*: it deosn't have vue-Router & Vuex, if you want it you can install it
 
 ## Configuration
-+ the `src/config.js` contains all variables like title & links (for routing)
-+ you can add any plugin by following [this way](https://vuejs.org/v2/guide/plugins.html) or as you want
++ The `./src/config.js` contains all variables like title & links (for routing)
++ Default language in *English* if you wanna use other lang you need to change html attribute in `./public/index.html` & the import line in `./src/plugins/vuetify.js` wish is like
+```js
+import en from 'vuetify/es5/locale/en'
+...
+export default new Vuetify({
+	...
+	lang: {
+		locales: { en },
+		current: 'en'
+	},
+	...
+});
+
+```
++ You can add any plugin by following [this way](https://vuejs.org/v2/guide/plugins.html) or as you want
 
 ## Features
 + Built in navbar
