@@ -1,6 +1,5 @@
 const {
 	title,
-	links,
 } = require('../config')
 
 module.exports.general = {
@@ -9,11 +8,7 @@ module.exports.general = {
 		clipped: false,
 		drawer: false,
 		fixed: false,
-		miniVariant: false,
-		right: false,
-		rightDrawer: false,
 		title,
-		links,
 	}),
 	methods: {
 		switchTheme() {
