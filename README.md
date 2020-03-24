@@ -1,7 +1,7 @@
 <div style="text-align: center">
-	<img style="max-width: 100px;display: inline-block;margin: 5px 15px" src="https://vuejs.org/images/logo.png" />
-	<img style="max-width: 100px;display: inline-block;margin: 5px 15px" src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png" />
-	<img style="max-width: 100px;display: inline-block;margin: 5px 15px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCpfLNi3k11lMdk8QR9g7r1sqB6sWSC1agQJBEmptS4O9B0HL9" />
+	<img width="100px" style="max-width: 100px;display: inline-block;margin: 5px 15px" src="https://vuejs.org/images/logo.png" />
+	<img width="100px" style="max-width: 100px;display: inline-block;margin: 5px 15px" src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png" />
+	<img width="100px" style="max-width: 100px;display: inline-block;margin: 5px 15px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCpfLNi3k11lMdk8QR9g7r1sqB6sWSC1agQJBEmptS4O9B0HL9" />
 </div>
 
 # Vue Vuetify Starter
