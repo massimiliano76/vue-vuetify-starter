@@ -21,6 +21,7 @@ export default new Vuetify({
 });
 
 ```
++ Scss/Sass pre-proccessor support
 + You can add any plugin by following [this way](https://vuejs.org/v2/guide/plugins.html) or as you want
 
 ## Features
